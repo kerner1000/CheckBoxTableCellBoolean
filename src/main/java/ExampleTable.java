@@ -6,6 +6,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.CheckBoxTableCell;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.control.cell.TextFieldTableCell;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
@@ -35,6 +36,12 @@ public class ExampleTable extends Application {
         c1.setEditable(true);
         c1.setPrefWidth(100);
 
+        final TableColumn<ExampleBean, String> c2 = new TableColumn<>("B");
+        c2.setCellValueFactory(new PropertyValueFactory<ExampleBean, String>("p2"));
+        c2.setCellFactory(TextFieldTableCell.forTableColumn());
+        c2.setEditable(true);
+        c2.setPrefWidth(100);
+
 
         for (int i = 0; i < NUM_ELEMENTS; i++) {
             data.add(new ExampleBean());
@@ -51,7 +58,7 @@ public class ExampleTable extends Application {
         table.setItems(data);
         // table.setMaxHeight(Double.POSITIVE_INFINITY);
         // table.setMaxWidth(Double.POSITIVE_INFINITY);
-        table.getColumns().addAll(c1);
+        table.getColumns().addAll(c1, c2);
 
         final ContextMenu cm = new ContextMenu();
         cm.getItems().add(new MenuItem("bu"));

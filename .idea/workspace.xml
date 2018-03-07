@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b132a437-4e39-41da-bb7c-3596a153195d" name="Default" comment="" />
+    <list default="true" id="b132a437-4e39-41da-bb7c-3596a153195d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExampleBean.java" afterPath="$PROJECT_DIR$/src/main/java/ExampleBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExampleTable.java" afterPath="$PROJECT_DIR$/src/main/java/ExampleTable.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,21 +25,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExampleTable.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExampleTable.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ExampleTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+            <state relative-caret-position="728">
+              <caret line="76" column="1" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="76" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExampleBean.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExampleBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ExampleBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+            <state relative-caret-position="468">
+              <caret line="33" column="1" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -310,18 +313,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExampleTable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ExampleBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        <state relative-caret-position="468">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExampleBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ExampleTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        <state relative-caret-position="728">
+          <caret line="76" column="1" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="76" selection-end-column="1" />
           <folding />
         </state>
       </provider>
